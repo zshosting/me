@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Gravura LET';
+    src: url('GravuraLetPlain.eot');
+    src: url('GravuraLetPlain.eot?#iefix') format('embedded-opentype'),
+        url('GravuraLetPlain.woff2') format('woff2'),
+        url('GravuraLetPlain.woff') format('woff'),
+        url('GravuraLetPlain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

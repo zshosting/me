@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="lt-ie10" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+  <html>
+    <head>
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+		<link href="../imgs/css/foundation.css" rel="stylesheet" type="text/css" />
+		<link href="../imgs/css/twentytwenty.css" rel="stylesheet" type="text/css" />
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+		  <div class="container">
+			<div class="section">
+
+			  <!--   Icon Section   -->
+			  <div class="row">
+				<div class="col s12 m6">
+					<div class="card-panel white">
+						<div id="container1" class="twentytwenty-container">
+						  <img src="../imgs/before/Owl.JPG" style="height:300px;"/>
+						  <img src="../imgs/after/Owl.png" style="height:300px;"/>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m6">
+					<div class="card-panel white">
+						<div id="container2" class="twentytwenty-container">
+						  <img src="../imgs/before/redfacefinch.JPG" style="height:300px;"/>
+						  <img src="../imgs/after/redfacefinch.png" style="height:300px;"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			</br>
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card-panel white">
+						<div id="container3" class="twentytwenty-container">
+						  <img src="../imgs/before/Bunny-1.JPG" style="height:300px;"/>
+						  <img src="../imgs/after/Bunny-1.png" style="height:300px;"/>
+						</div>
+					</div>
+				</div>
+				<div id="container4" class="col s12 m6">
+					<div class="card-panel white">
+						<div class="twentytwenty-container">
+						  <img src="../imgs/before/Bunny-2.JPG" style="height:300px;"/>
+						  <img src="../imgs/after/Bunny-2.png" style="height:300px;"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			</br>
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card-panel white">
+						<div id="container5" class="twentytwenty-container">
+						  <img src="../imgs/before/SmokeySky1.JPG" style="height:300px;"/>
+						  <img src="../imgs/after/SmokeySky1.png" style="height:300px;"/>
+						</div>
+					</div>
+				</div>
+			  </div>
+			  </br>
+			</div>
+		  </div>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.js"
+		  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		  crossorigin="anonymous"></script>
+		<script src="js/jquery.event.move.js"></script>
+		<script src="js/jquery.twentytwenty.js"></script>
+		<!-- data-orientation="vertical" -->
+		<script>
+		$(function(){
+		  $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.3,click_to_move: true});
+		  $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical',click_to_move: true});
+		});
+		</script>
+    </body>
+  </html>

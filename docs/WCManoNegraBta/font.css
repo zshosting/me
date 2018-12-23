@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'WC Mano Negra Bta';
+    src: url('WCManoNegraBta.eot');
+    src: url('WCManoNegraBta.eot?#iefix') format('embedded-opentype'),
+        url('WCManoNegraBta.woff2') format('woff2'),
+        url('WCManoNegraBta.woff') format('woff'),
+        url('WCManoNegraBta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
